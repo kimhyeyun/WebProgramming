@@ -1,0 +1,79 @@
+<!-- 상속과 우선순위 -->
+<!-- inline > internal > external -->
+<!-- id > class > element -->
+
+<!-- CSS Selector -->
+<!-- HTML의 요소를 tag, id, html 태그 속성 등을 통해 쉽게 찾아주는 방법 -->
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+            /* tag로 지정 */
+            span {
+                color:red;
+            }
+
+            /* id로 지정 */
+            #spantag{
+                color:red
+            }
+
+            /* class로 지정 */
+            .spanClass{
+                color:aqua;
+            }
+
+            /* id, class 요소 선택자와 함께 사용 */
+            #myid{color: aquamarine;}
+            div.myclassname{
+                color : green;
+            }
+
+            #jisu span{color:yellow}
+
+            #kim>span{color:brown}
+
+            #hye > p:nth-child(2){color:blue}
+
+            /* 그룹 선택 (여러 개 셀럭터에 같은 style을 적용) */
+            h1,span,div{color:red}
+            h1, span,div#id{color:red}
+            h1.span, div.classname{color:rebeccapurple}
+
+        </style>
+
+    </head>
+
+    <body>
+        <span id="spantag">Hello Wolrd!</span>
+        <span class="spanClass">Hello world!</span>
+
+        <!-- 요소 선택 (공백) : 자손요소
+        아래 모든 span태그에 yellow 색상이 적용 -->
+        <div id="jisu">
+            <div>
+                <span>span tag</span>
+            </div>
+            <span>span tag2</span>
+        </div>
+
+        <!-- 자식 선택(>)  : 자식은 바로 하위 엘리먼트를 가리킴
+        아래는 span tag 2 만 brown 색상 적용 -->
+        <div id="kim">
+            <div>
+                <span>span tag</span>
+            </div>
+            <span>span tag 2</span>
+        </div>
+
+        <!-- n번째 자식요소 선택
+        단락 선택 에 blue 색상 적용 -->
+        <div id="hye">
+            <h2>단락 선택</h2>
+            <p>첫번째 단락입니다</p>
+            <p>두번째 단락입니다</p>
+            <p>세번째 단락입니다</p>
+            <p>네번째 단락입니다</p>
+        </div>
+    </body>
+</html>

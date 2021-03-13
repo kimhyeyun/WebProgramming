@@ -1,0 +1,40 @@
+<!-- //css 상속
+box-model 이라고 불리는 속성들 (width, height, margin, padding, border)과 
+같이 크기와 배치 관결된 속성들은 하위 엘리먼트로 상속되지않음 -->
+<!DOCTYPE>
+<html>
+
+<head>
+    <style>
+        body div {
+            color: green;
+            font-size: 30px;
+            border: 2px solid slategray;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <span>my text is upper!</span>
+        <ul>
+            <li>
+                <span>my text is dummy</span>
+                <div>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur 
+                        adipiscing elit. Qui molestiae eius ullam 
+                        eveniet ratione nam doloremque enim enum nisi
+                        optio provident in impedit velit, expedita, 
+                        obcaecati distinctio inventore quam architecto.
+                    </p>
+                </div>
+            </li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>
