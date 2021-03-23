@@ -1,0 +1,59 @@
+<!-- Element가 배치되는 방법
+엘리먼트를 화면에 배치하는 것을 layout 작업이라고도 하고, rendering 과정이라고도 함
+엘리먼트는 위에서 아래로 순서대로 블럭을 이루며 배치되는 것이 기본
+하지만 웹사이트의 배치는 다양하게 표현 가능해야 하기때문에, 이를 다양한 방식으로로 배치할 수 
+있도록 css에는 추가적인 속성을 제공 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css_basic_07.css">
+</head>
+
+<body>
+    <!-- display(block, inline, inline-block)
+        display 속성이 block이거나 inline-block인 경우 그 엘리먼트는 벽돌을 쌓든 블록을 가지고 쌓임 -->
+    <!-- <div>block1</div>
+    <p>block2</p>
+    <div>block3</div> -->
+
+    <!-- display 속성이 inline인 경우는 우측으로, 그리고 아래쪽으로 빈자리를 차지하며 흐름
+        높이와 넓이를 지정해도 반영되지 않음 -->
+    <!-- <div>
+        <span>나는 어떻게 배치되나요?</span>
+        <span>좌우로 배치되는 군요</span>
+        <a>링크는요?</a>
+        <strong>링크도 강조도 모두 좌우로 흐르는 군요</strong>
+        모두다 display속성이 inline인 엘리먼트이기 때문입니다.
+    </div>  -->
+
+    <!-- position(static, absolute, relative, fixed) -->
+    <!-- 1. position 속성으로 특별한 배치를 할 수 있음
+        position 속성은 기본 static임. 그냥 순서대로 배치 -->
+    <!-- 2. top /left /right/ bottom으로 설정
+         기준점을 상위엘리먼트로 단계적으로 찾아가는데 static이 아닌 position이 기준점 -->
+    <!-- 3. relative는 원래 자신이 위치해야 할 곳을 기준으로 이동
+            top /left/ right/ bottom으로 설정 -->
+    <!-- 4. fixed는 viewport(전체화면) 좌츨, 맨 위를 기준으로 동작 -->
+        <!-- <div  class="wrap">
+            <div class="static">static(default)</div>
+            <div class="relative">relative(left:10px)</div>
+            <div class="absolute">absolute(left:130px;top:30px)</div>
+            <div class="fixed">fixed(top:250px)</div>
+        </div> -->
+  
+  
+    <!-- float(left, right) -->
+    <!-- float 속성으로 원래 flow에서 벗어날 수 있고 둥둥 떠다닐 수 있음
+    일반적인 배치에 따라서 배치된 상태에서 float은 벗어난 형태로 특별히 배치됨
+    따라서 뒤에 block 엘리먼트가 float 된 엘리먼트를 의식하지 못하고 중첩되서 배치됨 -->
+    <div class="blue"></div>
+    <div class="green"></div>
+    <div class="red"></div>
+
+
+    
+</body>
+</html>
