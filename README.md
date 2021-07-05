@@ -1,5 +1,6 @@
 # BoostCourse Web Programming
 
+## 1차 과제 Project
 ### 🧾 웹 프론트엔드 기술 요구사항
 
 - html layout tag 사용
@@ -24,3 +25,5 @@ photo.html은 사진과 그에 관한 글 존재, aboutme.html은 간단한 자�
 [kimhyeyun/WebProgramming](https://github.com/kimhyeyun/WebProgramming/tree/main/웹풀스택)
 
 ### 📌 코드 외부 유출 금지📌
+
+***
