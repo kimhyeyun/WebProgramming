@@ -22,7 +22,7 @@ photo.html은 사진과 그에 관한 글 존재, aboutme.html은 간단한 자�
 ```
 ### 💽 시현 영상
 
-[kimhyeyun/WebProgramming](https://github.com/kimhyeyun/WebProgramming/tree/main/웹풀스택)
+[시현 영상](https://github.com/kimhyeyun/WebProgramming/tree/main/웹풀스택)
 
 ### 📌 코드 외부 유출 금지📌
 
