@@ -1,1 +1,1 @@
-# WebProgramming
+# BoostCourse Web Programming
