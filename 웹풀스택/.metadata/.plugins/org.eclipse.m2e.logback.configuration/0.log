@@ -485,3 +485,13 @@
 2021-07-05 19:03:40,806 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yun/Desktop/YUN/부스트코스/웹풀스택/jdbcexam/src/main/resources
 2021-07-05 19:03:40,807 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-07-05 19:03:40,807 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yun/Desktop/YUN/부스트코스/웹풀스택/jdbcexam/src/test/resources
+2021-07-05 19:31:02,266 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yun/Desktop/YUN/부스트코스/웹풀스택/webapiexam/pom.xml
+2021-07-05 19:31:03,607 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.connect:webapiexam:0.0.1-SNAPSHOT @ /Users/yun/Desktop/YUN/부스트코스/웹풀스택/webapiexam/pom.xml.
+2021-07-05 19:31:04,726 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapiexam/src/main/java
+2021-07-05 19:31:04,729 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webapiexam/src/main/resources
+2021-07-05 19:31:04,729 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapiexam/src/test/java
+2021-07-05 19:31:05,870 [Worker-78: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-07-05 19:31:06,491 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-05 19:31:06,498 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-07-05 19:31:06,500 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-05 19:31:06,501 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yun/Desktop/YUN/부스트코스/웹풀스택/webapiexam/src/test/resources
