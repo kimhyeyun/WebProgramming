@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+	background-color: #f0efeb;
+}
+
+
+.form_Title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: 	#1e1e1e;
+	margin-top: 80px;
+}
+
+#div_body{
+	display: flex;
+	width: 100%;
+}
+
+
+.form_Input{
+	margin-top: 50px;
+	
+}
+
+#title{
+	font-size:15px;
+	width: 100%;
+}
+
+#name{
+	font-size:15px;
+	width: 60%;
+}
+
+.btn_div{
+	margin-top: 30px;
+}
+
+.prev{
+	background-color: white;
+	padding: 5px;
+	color: black;
+	width: 120px;
+}
+
+.submit, .reset{
+	float: right;
+	background-color: #4b4b4b;
+	color: white;
+	padding: 5px;
+	width: 120px;
+}
+
+.reset{
+	margin-right: 20px;
+}

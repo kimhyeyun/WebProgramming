@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RolesServlet</servlet-name>
+  	<display-name>RolesServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.RolesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RolesServlet</servlet-name>
+  	<url-pattern>/RolesServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

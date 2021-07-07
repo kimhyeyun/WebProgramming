@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+body{
+	background-color: #f0efeb;
+}
+
+.mainTitle {
+	transform: rotate(-30deg);
+	display: inline-block;
+	margin-top: 80px;
+	margin-left:20px;
+	font-size: 40px;
+	font-weight: bold;
+	color: 	#4b4b4b;
+}
+
+.addTodo {
+	text-decoration:none;
+	display: inline-block;
+	float: right;
+	margin-right: 75px;
+	margin-top: 60px;
+	color: #1e1e1e;
+}
+
+ul {
+	float:left;
+	list-style: none;
+}
+
+#sec_body{
+	margin-left: 130px;
+	float: left;
+}
+
+.list_title{
+	background-color: #4b4b4b;
+	width: 350px;
+	padding: 20px 0px 20px 10px;
+	font-size: 20px;
+	color: white; 
+}
+
+.next_btn {
+	float: right;
+	margin-right: 10px;
+}
+
+.list_content{
+	background-color: white;
+	width: 350px;
+	padding: 10px 0px 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #4b4b4b;
+}
